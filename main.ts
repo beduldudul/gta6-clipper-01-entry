@@ -1,3 +1,4 @@
+// Copies VIDEO.json from the entry repository into the grader's output dir.
 import { copyFileSync, mkdirSync } from "node:fs";
 import { join } from "node:path";
 
